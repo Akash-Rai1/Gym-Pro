@@ -1,0 +1,25 @@
+#root {
+	overflow: hidden;
+}
+.scroller-ar {
+	width: 100%;
+	/* background-color: blue; */
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+.react-horizontal-scrolling-menu--scroll-container {
+	display: block;
+	white-space: nowrap;
+	/* display: inline-block; */
+	/* overflow-x: scroll; */
+	/* background-color: red; */
+	overflow-y: hidden;
+	padding: 2rem 0.4rem;
+	/* width: 400vw; */
+}
+.react-horizontal-scrolling-menu--item {
+	display: inline-block;
+}
+.react-horizontal-scrolling-menu--separator {
+	display: none;
+}
